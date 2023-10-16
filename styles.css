@@ -83,3 +83,14 @@ button:hover {
   background-color: #bad2fd;
   color: #1444c7;
 }
+
+@media (max-width: 480px) {
+  main {
+    width: 80%;
+    /* gap: 20px; */
+  }
+
+  .count-card {
+    margin: 0 20px;
+  }
+}
